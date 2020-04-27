@@ -1,0 +1,160 @@
+body
+ {
+min-width: 1100px;
+}
+main{
+    background-color: rgb(3,90,166);
+  }
+ main, p, input, select, textarea, button {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -0.2px;
+    font-size: 14px;
+  }
+  div, p,.text1 {
+    color: #ffffff;
+    text-shadow: 1px 1px 1px rgb(12, 125, 224);
+  }
+  form {
+    padding: 16px;
+    width: 320px;
+    margin: 5rem 1rem 0rem 45rem;
+  }
+  .segment {
+    padding: 32px 0;
+    text-align: center;
+  }
+  button, input,textarea {
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    border-radius: 320px;
+    padding: 16px;
+    background-color:rgb(3,90,166);
+    text-shadow: 1px 1px 0 rgb(12, 125, 224);
+  }
+  label {
+    display: block;
+    margin-bottom: 24px;
+    width: 100%;
+  }
+  input,textarea {
+    margin-right: 32px;
+    box-shadow:  inset 2px 2px 5px rgb(1, 44, 82), inset -5px -5px 10px rgb(12, 125, 224);
+    width: 100%;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+    appearance: none;
+    -webkit-appearance: none;
+  }
+  input:focus {
+    box-shadow:  inset 1px 1px 2px rgb(1, 44, 82), inset -1px -1px 2px rgb(12, 125, 224);
+  }
+  button {
+    color:#ffffff;
+    font-weight: bold;
+    box-shadow: -5px -5px 20px rgb(12, 125, 224),  5px 5px 20px rgb(1, 44, 82);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  button:hover {
+    box-shadow: -2px -2px 5px rgb(1, 44, 82), 2px 2px 5px rgb(12, 125, 224);
+  }
+  button:active {
+    box-shadow: inset 1px 1px 2px rgb(1, 44, 82), inset -1px -1px 2px rgb(12, 125, 224);
+  }
+  .red {
+    display: block;
+    width: 100%;
+  }
+  .text1 {
+    width: 100%;
+    text-align: center;
+    font-size: 3vw;
+  }
+
+
+  .text1 , .text2 {
+    box-shadow: -5px -5px 20px rgb(12, 125, 224), 5px 5px 20px rgb(1, 44, 82);
+    border-radius: 0.75rem;
+    color: #ffffff;
+    font-weight: 400;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px rgb(12, 125, 224);
+    cursor: pointer;
+  }
+.text1 {
+  position: absolute;
+  top: 13rem;
+  left: 10rem;
+  width: 20rem;
+  height: 5rem;
+  text-align: center;
+  letter-spacing:1.5rem;
+  padding: 5rem 0;
+    z-index: 1;
+  }
+  
+  .text2 {
+    position: absolute;
+    top: 7rem;
+    right: 1rem;
+    width: 35rem;
+    padding: 16px;
+    margin: 0 1rem;
+    text-align: center;
+    letter-spacing:1.5rem;
+    padding: 0.5rem 0;
+    z-index: 1;
+  }
+  
+  
+  h1 {
+    font-size: 2.8rem;
+    font-weight: 800;
+  }
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+  p {
+    font-size: 1.8rem;
+    padding: 2rem;
+  }
+  
+  .img1 {
+    position: absolute;
+    left: 10rem;
+    top: 35rem;
+    width: 20rem;
+    border-radius: 0.75rem;
+    text-shadow: 1px 1px 0 rgb(12, 125, 224);
+    box-shadow: -5px -5px 20px rgb(12, 125, 224), 5px 5px 20px rgb(1, 44, 82);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    flex: 2;
+    display: flex;
+    z-index: 1;
+  }
+  ul:active {
+    box-shadow: inset 2px 2px 4px rgb(12, 125, 224), inset -2px -2px 4px rgb(1, 44, 82);
+  }
+  
+  .img1:active {
+    box-shadow: inset 2px 2px 4px rgb(12, 125, 224), inset -2px -2px 4px rgb(1, 44, 82);
+  }
+  
+  .text1:active {
+    box-shadow: inset 2px 2px 4px rgb(12, 125, 224), inset -2px -2px 4px rgb(1, 44, 82);
+  }
+  
+  .text2:active {
+    box-shadow: inset 2px 2px 4px rgb(12, 125, 224), inset -2px -2px 4px rgb(1, 44, 82);
+  }
+  
+  .text3:hover {
+    box-shadow: inset 2px 2px 4px rgb(12, 125, 224), inset -2px -2px 4px rgb(1, 44, 82);
+  }
+  
+  
+    

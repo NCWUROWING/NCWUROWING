@@ -1,0 +1,130 @@
+.text1 , .text2 ,.text  {
+    box-shadow: -5px -5px 20px rgb(12, 125, 224), 5px 5px 20px rgb(1, 44, 82);
+    border-radius: 0.75rem;
+    color: #ffffff;
+    font-weight: 400;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px rgb(12, 125, 224);
+    cursor: pointer;
+  }
+.text1 {
+    position: absolute;
+    top: 0rem;
+    left: 1rem;
+    width: 22%;
+    height: 5rem;
+    text-align: center;
+    letter-spacing:1.5rem;
+    padding: 5rem 0;
+  }
+  
+  .text2 {
+    position: absolute;
+    top: 18rem;
+    left: 1rem;
+    width: 22%;
+    height: 5rem;
+    text-align: center;
+    letter-spacing:1.5rem;
+    padding: 5rem 0;
+  }
+   
+  
+  h1 {
+    font-size: 2rem;
+    font-weight: 800;
+  }
+  h3 {
+     font-size: 2rem; 
+  }
+  div ul , div li  {
+    font-size: 1.3rem;
+    padding: 1rem;
+  }
+  
+  .t2015 {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 63%;
+    height: 13rem;
+    padding: 0rem 3rem;
+  }
+  .t2016 {
+    position: absolute;
+    top: 16rem;
+    right: 1rem;
+    width: 38%;
+    height: 53rem;
+    padding: 0rem 3rem;
+  }
+  .t2017 {
+    position: absolute;
+    top: 38rem;
+    left: 1rem;
+    width: 38%;
+    height: 50rem;
+    padding: 0rem 3rem;
+  }
+  .t2018 {
+    position: absolute;
+    top: 73rem;
+    right: 1rem;
+    width: 38%;
+    height: 53rem;
+    padding: 0rem 3rem;
+  }
+  
+  .t2019 {
+    position: absolute;
+    top: 93rem;
+    left: 1rem;
+    width: 38%;
+    height: 48rem;
+    padding: 0rem 3rem;
+  }
+  .t2020 {
+    position: absolute;
+    top: 127rem;
+    right: 1rem;
+    width: 38%;
+    height: 14rem;
+    padding: 0rem 3rem;
+  }
+
+
+  .img1 {
+    position: absolute;
+    left: 27%;
+    top: 17rem;
+    width: 19%;
+    border-radius: 0.75rem;
+    text-shadow: 1px 1px 0 rgb(12, 125, 224);
+    box-shadow: -5px -5px 20px rgb(12, 125, 224), 5px 5px 20px rgb(1, 44, 82);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    flex: 2;
+    display: flex;
+  }
+ nav ul:active {
+    box-shadow: inset 2px 2px 4px rgb(12, 125, 224), inset -2px -2px 4px rgb(1, 44, 82);
+  }
+  
+  .img1:active {
+    box-shadow: inset 2px 2px 4px rgb(12, 125, 224), inset -2px -2px 4px rgb(1, 44, 82);
+  }
+  
+  .text1:active {
+    box-shadow: inset 2px 2px 4px rgb(12, 125, 224), inset -2px -2px 4px rgb(1, 44, 82);
+  }
+  
+  .text2:active {
+    box-shadow: inset 2px 2px 4px rgb(12, 125, 224), inset -2px -2px 4px rgb(1, 44, 82);
+  }
+  
+  .text:hover {
+    box-shadow: inset 2px 2px 4px rgb(12, 125, 224), inset -2px -2px 4px rgb(1, 44, 82);
+  }
+
+  
+    
