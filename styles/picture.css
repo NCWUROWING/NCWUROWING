@@ -1,0 +1,170 @@
+.text1 , .text2 {
+    box-shadow: -5px -5px 20px rgb(12, 125, 224), 5px 5px 20px rgb(1, 44, 82);
+    border-radius: 0.75rem;
+    color: #ffffff;
+    font-weight: 400;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px rgb(12, 125, 224);
+    cursor: pointer;
+  }
+.text1 {
+    position: absolute;
+    top: 0;
+    left: 1rem;
+    width: 19%;
+    height: 4rem;
+    text-align: center;
+    letter-spacing:1.5rem;
+    padding: 0.5rem 0;
+  }
+  
+  .text2 {
+    position: absolute;
+    top: 6.7rem;
+    left: 1rem;
+    width: 19%;
+    height: 4rem;
+    text-align: center;
+    letter-spacing:1.5rem;
+    padding: 0.5rem 0;
+  }
+  
+
+  h1 {
+    font-size: 2.8rem;
+    font-weight: 800;
+  }
+  p {
+    font-size: 1.8rem;
+    padding: 2rem;
+  }
+  
+  .img1 {
+    position: absolute;
+    left: 1rem;
+    top: 15.5rem;
+    width: 19%;
+    border-radius: 0.75rem;
+    text-shadow: 1px 1px 0 rgb(12, 125, 224);
+    box-shadow: -5px -5px 20px rgb(12, 125, 224), 5px 5px 20px rgb(1, 44, 82);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    flex: 2;
+    display: flex;
+  }
+  ul:active {
+    box-shadow: inset 2px 2px 4px rgb(12, 125, 224), inset -2px -2px 4px rgb(1, 44, 82);
+  }
+  
+  .img1:active {
+    box-shadow: inset 2px 2px 4px rgb(12, 125, 224), inset -2px -2px 4px rgb(1, 44, 82);
+  }
+  
+  .text1:active {
+    box-shadow: inset 2px 2px 4px rgb(12, 125, 224), inset -2px -2px 4px rgb(1, 44, 82);
+  }
+  
+  .text2:active {
+    box-shadow: inset 2px 2px 4px rgb(12, 125, 224), inset -2px -2px 4px rgb(1, 44, 82);
+  }
+
+  
+  
+    
+
+
+
+
+  
+
+
+
+#container {
+    margin-top: 1rem;
+
+    border-radius: 0.75rem;
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    width: 1000px;
+    height: 500px;
+    overflow: hidden;
+    box-shadow: -5px -5px 20px rgb(12, 125, 224), 5px 5px 20px rgb(1, 44, 82);
+    }
+    
+    #photo {
+    
+    width: 10000px;
+    
+    animation: switch 30s ease-out infinite;
+    
+    }
+    
+    #photo > img {
+    
+    float: left;
+    
+    width: 1000px;
+    
+    height: 500px;
+    
+    }
+    
+    @keyframes switch {
+    
+    0%, 8% {
+    
+    margin-left: 0;
+    
+    }
+    10%, 17% {
+    
+    margin-left: -1000px;
+    
+    }
+    
+    19%, 26% {
+    
+    margin-left: -2000px;
+    
+    }
+    28%, 35% {
+    
+    margin-left: -3000px;
+    
+    }
+
+    37%, 44% {
+    
+    margin-left: -4000px;
+    
+    }
+    46%, 53% {
+    
+    margin-left: -5000px;
+        
+    }
+    55%, 62% {
+    
+    margin-left: -6000px;
+    
+    }
+    64%, 71% {
+    
+        margin-left: -7000px;
+        
+        }
+    73%, 80% {
+    
+    margin-left: -8000px;
+    
+    }
+    82%, 98% {
+    
+        margin-left: -9000px;
+        
+        }
+
+    
+    }
+    

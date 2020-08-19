@@ -54,7 +54,7 @@ main {
     width: 22%;
     border-radius: 0.75rem;
     text-shadow: 1px 1px 0 rgb(12, 125, 224);
-    box-shadow: -5px -5px 20px rgb(12, 125, 224), 5px 5px 20px rgb(1, 44, 82);
+    box-shadow: -5px -5px 20px #0c7de0, 5px 5px 20px rgb(1, 44, 82);
     transition: all 0.2s ease-in-out;
     cursor: pointer;
     flex: 2;
